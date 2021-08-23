@@ -57,8 +57,8 @@
     skos:altLabel "NC-ND";
     skos:topConceptOf <> .
 
-<notOpen> a skos:Concept ;
+<noLicense> a skos:Concept ;
     sdo:image <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png> ;
-    skos:prefLabel "Keine offene Lizenz"@de,
-        "No open license"@en ;
+    skos:prefLabel "Keine Lizenzangabe"@de,
+        "No license"@en ;
     skos:topConceptOf <> .
