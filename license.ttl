@@ -12,7 +12,7 @@
     vann:preferredNamespaceUri "https://w3id.org/kim/license/" ;
     vann:preferredNamespacePrefix "license" ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept <publicDomain>, <attribution>, <shareAlike>, <noDerivatives>, <nonCommercial>, <nonCommercial-noDerivatives>, <notOpen> .
+    skos:hasTopConcept <publicDomain>, <attribution>, <shareAlike>, <noDerivatives>, <nonCommercial>, <nonCommercial-noDerivatives>, <noLicense> .
 
 <publicDomain> a skos:Concept ;
     skos:altLabel "Public Domain"@en , "PD"@en , "PD"@de , "Public Domain"@de  ;
