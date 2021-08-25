@@ -17,7 +17,7 @@
 <publicDomain> a skos:Concept ;
     skos:altLabel "Public Domain"@en , "PD"@en , "PD"@de , "Public Domain"@de  ;
     sdo:image <https://mirrors.creativecommons.org/presskit/icons/pd.svg> ;
-    skos:prefLabel "Keine Einscrhänkungen"@de,
+    skos:prefLabel "Keine Einschränkungen"@de,
         "No Restrictions"@en ;
     skos:topConceptOf <> .
 
