@@ -25,28 +25,29 @@
     sdo:image <https://mirrors.creativecommons.org/presskit/icons/by.svg> ;
     skos:prefLabel "Namensnennung"@de,
         "Attribution"@en ;
-    skos:altLabel "BY";
+    skos:altLabel "BY"@en, "BY"@de;
     skos:topConceptOf <> .
 
 <shareAlike> a skos:Concept ;
     sdo:image <https://mirrors.creativecommons.org/presskit/icons/sa.svg> ;
     skos:prefLabel "Änderungen unter gleichen Bedingungen"@de,
         "Share Alike"@en ;
-    skos:altLabel "SA";
+    skos:altLabel "SA"@de, "Copyleft"@de, "virale Lizenz"@de,
+        "SA"@en, "Copyleft"@en, "viral license"@en;
     skos:topConceptOf <> .
 
 <noDerivatives> a skos:Concept ;
     sdo:image <https://mirrors.creativecommons.org/presskit/icons/nd.svg> ;
     skos:prefLabel "Keine Bearbeitung"@de,
         "No Derivatives"@en ;
-    skos:altLabel "ND";
+    skos:altLabel "ND"@en, "ND"@de;
     skos:topConceptOf <> .
 
 <nonCommercial> a skos:Concept ;
     sdo:image <https://mirrors.creativecommons.org/presskit/icons/nc-eu.svg> ;
     skos:prefLabel "Nicht kommerziell"@de,
         "Non Commercial"@en ;
-    skos:altLabel "NC";
+    skos:altLabel "NC"@en, "NC"@de;
     skos:topConceptOf <> .
 
 <nonCommercial-noDerivatives> a skos:Concept ;
@@ -54,7 +55,7 @@
     sdo:image <> ;
     skos:prefLabel "Nicht-kommerziell - Keine Bearbeitung"@de,
         "Non Commercial - No Derivatives"@en ;
-    skos:altLabel "NC-ND";
+    skos:altLabel "NC-ND"@en, "NC-ND"@de;
     skos:topConceptOf <> .
 
 <noLicense> a skos:Concept ;
