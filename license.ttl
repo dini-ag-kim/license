@@ -5,9 +5,9 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
-    dct:title "Lizenzen"@de, "Licenses"@en ;
-    dct:description "Eine Wertelliste für Typen von Lizenzen."@de, "A value list for types of licenses."@en ;
-    dct:publisher <https://oerworldmap.org/resource/urn:uuid:fd06253e-fe67-4910-b923-51db9d27e59f> ;
+    dct:title "KIM Lizenztypen-Vokabular"@de, "KIM license type vocabulary"@en ;
+    dct:description "Eine Wertelliste für Typen von Lizenzen entwickelt und publiziert vom Kompetenzzentrum für Interoperable Metadaten (KIM)."@de, "A value list for   types of licenses developed and published by KIM."@en ;
+    dct:publisher <http://www.wikidata.org/entity/Q1718705> ;
     dct:issued "2021-08-04" ;
     vann:preferredNamespaceUri "https://w3id.org/kim/license/" ;
     vann:preferredNamespacePrefix "license" ;
