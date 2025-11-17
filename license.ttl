@@ -51,15 +51,12 @@
     skos:topConceptOf <> .
 
 <nonCommercial-noDerivatives> a skos:Concept ;
-    skos:altLabel "CC-BY-SA"@en ;
-    sdo:image <> ;
     skos:prefLabel "Nicht-kommerziell - Keine Bearbeitung"@de,
         "Non Commercial - No Derivatives"@en ;
     skos:altLabel "NC-ND"@en, "NC-ND"@de;
     skos:topConceptOf <> .
 
 <noLicense> a skos:Concept ;
-    sdo:image <http://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png> ;
     skos:prefLabel "Keine Lizenzangabe"@de,
         "No license"@en ;
     skos:topConceptOf <> .
